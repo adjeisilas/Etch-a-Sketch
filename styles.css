@@ -1,12 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    height: 600px;
-    width: 600px;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
+.container {
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  flex: auto;
+  display: flex;
+}
+.gridCol {
+  flex: auto;
 }
